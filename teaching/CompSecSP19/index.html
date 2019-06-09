@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Computer Security</title>
+                
+  <meta name="author" content="Deepak K. Tosh" />
+
+  
+  <meta name="description" content="">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Deepak K. Tosh - Personal Web" href="/feed.xml" />
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Computer Security" />
+  
+
+   
+  <meta property="og:description" content="">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://dktosh.github.io/teaching/CompSecSP19/" />
+  <link rel="canonical" href="http://dktosh.github.io/teaching/CompSecSP19/" />
+  
+
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Computer Security" />
+  
+
+  
+  <meta name="twitter:description" content="">
+  
+
+  
+
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://dktosh.github.io">Deepak K. Tosh</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/./">Home</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Research</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/projects">Projects</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/publications">Publications</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/trucyberlab">Lab</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/teaching">Teaching</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/news">News</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Misc</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/links">Interesting Links</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+
+  </div>
+</nav>
+
+
+    <div class="intro-header"></div>
+
+<div role="main" class="container">
+  <h1 id="cs-5352-computer-security">CS 5352: Computer Security</h1>
+<hr />
+<p>| <a href="/teaching/SP19Syllabus.pdf">Syllabus</a>| <a href="#course-outline-tentative">Course Outline</a> | <a href="#grading-tentative">Grading</a> | <a href="#reference-books">Reference Books</a> | <a href="#standards-of-conduct">Standards of Conduct</a> | <a href="#course-outcomes">Course Outcomes</a> |</p>
+<h2 id="general-information">General Information</h2>
+<p><strong>Instructor:</strong> Dr. Deepak K. Tosh<br />
+<strong>Email:</strong> dktosh AT utep DOT edu<br />
+<strong>Semester:</strong> Spring 2019<br />
+<strong>Class Hours:</strong> TR 4:30 - 5:50 PM<br />
+<strong>Office Hours:</strong> MW 3:30 PM – 4:30 PM</p>
+
+<h2 id="course-description-and-objectives">Course Description and Objectives</h2>
+<p>General concepts and applied methods of computer security, especially as they relate to confidentiality, integrity, and availability of information assets. Topics include system security analysis, access control and various security models, identification and authentication, protection against external and internal threats, network protocols and Internet security.</p>
+
+<p>This course provides a broad introduction to a variety of topics in applied computer, network, and system security. These include system/software vulnerabilities, applied cryptography, host-based and network-based security, privacy, anonymity, usability, security economics, risks and vulnerabilities, policy formation, controls and protection methods, and issues of law and privacy.</p>
+
+<h2 id="course-outline-tentative">Course Outline (TENTATIVE)</h2>
+<ol>
+  <li>Computer security Introduction
+    <ul>
+      <li>Overview of Computer Security Concepts and Foundations</li>
+      <li>Threats, Attacks, and Assets</li>
+      <li>User Identification and Authentication</li>
+      <li>Access Control</li>
+    </ul>
+  </li>
+  <li>Applied Cryptography
+    <ul>
+      <li>Block &amp; Stream Ciphers</li>
+      <li>Symmetric and Asymmetric Cryptosystem</li>
+      <li>Public-Key Cryptography and Message Authentication</li>
+      <li>Message Integrity, Authentication, Digital Signature</li>
+      <li>Public Key Infrastructure</li>
+    </ul>
+  </li>
+  <li>Software Security and Trusted Systems
+    <ul>
+      <li>Buffer Overflow</li>
+      <li>SetUID Program vulnerabilities</li>
+      <li>Trusted Computing and Multilevel Security</li>
+    </ul>
+  </li>
+  <li>Network Security
+    <ul>
+      <li>Internet Security Protocols and Standards</li>
+      <li>TCP Attacks, DNS Vulnerabilities, SSL/TLS, DDoS</li>
+    </ul>
+  </li>
+  <li>Next Generation System Designs and Challenges
+    <ul>
+      <li>Cyber-Physical System Overview and Security</li>
+      <li>Internet-of-Things and Smart Grid Security</li>
+      <li>Data &amp; Infrastructure Security in Cloud/Edge Computing</li>
+    </ul>
+  </li>
+  <li>Blockchain and Decentralized Applications
+    <ul>
+      <li>Hashcash and other Consensus Protocols</li>
+      <li>Blockchain Security</li>
+      <li>Smart Contracts</li>
+      <li>Scalability and Privacy challenges, SNARKS</li>
+    </ul>
+  </li>
+  <li>Security Economics and Risk Modeling
+    <ul>
+      <li>Cyber-Risk Assessment</li>
+      <li>Threat Information Sharing</li>
+      <li>Cyber-insurance</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="reference-books">Reference Books</h2>
+<ol>
+  <li>William Stallings, Lawrie Brown, “Computer Security: Principles and Practice”, Prentice Hall, 3rd edition.</li>
+  <li>Wenliang Du, “Computer Security, A Hands-on Approach”.</li>
+</ol>
+
+<p><strong>Note:</strong> No Single textbook covers all the topics listed here. Necessary handouts/weblinks will be given based on materials covered in the classroom.</p>
+
+<h2 id="grading-tentative">Grading (Tentative)</h2>
+<p>Your semester grade will be based on a combination of homework assignments, quizzes, attendance, exam, and a term project. The approximate percentages are as follows:</p>
+<ul>
+  <li>5% - Attendance</li>
+  <li>15% - In-class Quizzes</li>
+  <li>25% - Homework Assignments</li>
+  <li>30% - Team Research Project</li>
+  <li>25% - Exams</li>
+</ul>
+
+<p><strong>Important Note:</strong> You will have one week to appeal for your grades after the graded assignments/tests are returned. So, please keep this in mind if you think that there is a problem/issue with the grading of your work.</p>
+
+<h2 id="standards-of-conduct">Standards of Conduct</h2>
+<p>Students are expected to conduct themselves in a professional and courteous manner, as prescribed by the Standards of Conduct. Students may discuss work assignments and programming exercises in a general way with other students, but the solutions must be done independently. Similarly, groups may discuss group project assignments with other groups, but the solutions must be done by the group itself. Graded work should be unmistakably your own. You may not transcribe or copy a solution taken from another person, book, or other source, e.g., a web page. Professors are required to – and will – report academic dishonesty and any other violation of the Standards of Conduct to the Dean of Students.</p>
+
+<h4 id="academic-dishonesty">Academic Dishonesty</h4>
+<p>Cheating is defined as submitting work under your name that was not done entirely by you for individual assignments or by your team for team assignments. (This includes taking programs from the web or cutting text from web pages and pasting them into documents, even if the source is cited). Cheating will not be tolerated – those caught cheating will be reported to the Dean of Students. You should be aware of the Standards of Conduct posted at <a href="http://www.utep.edu/vpfa/student_affairs/student/studindex/htm">http://www.utep.edu/vpfa/student_affairs/student/studindex/htm</a>.</p>
+
+<h2 id="disabilities">Disabilities</h2>
+<p>If you have a disability and need classroom accommodations, please contact The Center for Accommodations and Support Services (CASS) at 747-5148, or by email to <a href="cass@utep.edu">cass@utep.edu</a>, or visit their office located in UTEP Union East, Room 106. For additional information, please visit the CASS website at <a href="www.sa.utep.edu/cass">www.sa.utep.edu/cass</a>.</p>
+
+<h2 id="course-outcomes">Course Outcomes</h2>
+<p>Knowledge and Comprehension</p>
+<ol>
+  <li>Describe the functioning of various types of malicious codes.</li>
+  <li>Enumerate programming techniques that enhance security.</li>
+  <li>Explain the various controls available for protection against internet attacks, including authentication, integrity check, firewalls, intruder detection systems.</li>
+  <li>Describe different ways of providing authentication of a user or program.</li>
+  <li>Describe the mechanisms used to provide security in programs, operating systems, databases and networks.</li>
+  <li>Describe the background, history and properties of widely-used encryption algorithms.</li>
+  <li>Describe legal, privacy and ethical issues in computer security.</li>
+  <li>List and explain the typical set of tasks required of an information security professional.</li>
+</ol>
+
+<p>Application and Analysis</p>
+<ol>
+  <li>Compare different access control, file protection or authentication mechanisms.</li>
+  <li>Set up file protections in a Unix or Windows file system to achieve a given purpose.</li>
+  <li>Incorporate encryption, integrity check and/or authentication into a given program or algorithm.</li>
+</ol>
+
+<p>Synthesis and Evaluation</p>
+<ol>
+  <li>Appraise a given code fragment for vulnerabilities.</li>
+  <li>Appraise a given protocol for security flaws.</li>
+  <li>Assess risk for a given network system using publicly available tools and techniques.</li>
+</ol>
+
+</div>
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="mailto:dk{LastName}[at]utep[dot]edu" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+      Deepak K. Tosh
+      &nbsp;&bull;&nbsp;
+      2019
+
+      
+
+      
+      </p>
+          <!-- Please don't remove this, keep my open source work credited :) -->
+    <p class="theme-by text-muted">
+      Theme by
+      <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+    </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>
